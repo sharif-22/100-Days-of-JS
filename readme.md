@@ -15,3 +15,11 @@
 [live preview ](https://sharif-day2-random-num-gererator.netlify.app/)
 
 ![Random Generator app](/DAY%202%20-%20Random%20num%20Generator/images/mobile.png)
+
+# Day 2 - Random Number Generator
+
+[DAY 3 code 🔗]()
+
+[live preview ](https://sharif-day3-hexcolorapp.netlify.app/)
+
+![HEX Color app](/DAY%203%20-%20HEX%20Color%20generator/images/mobile.png)
