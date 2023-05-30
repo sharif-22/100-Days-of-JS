@@ -16,9 +16,11 @@
 
 ![Random Generator app](/DAY%202%20-%20Random%20num%20Generator/images/mobile.png)
 
-# Day 2 - Random Number Generator
+---
 
-[DAY 3 code 🔗]()
+# Day 3 - HEX Color Generator
+
+[DAY 3 code 🔗](https://github.com/sharif-22/100-Days-of-JS/tree/main/DAY%203%20-%20HEX%20Color%20generator)
 
 [live preview ](https://sharif-day3-hexcolorapp.netlify.app/)
 
