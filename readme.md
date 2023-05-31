@@ -25,3 +25,13 @@
 [live preview ](https://sharif-day3-hexcolorapp.netlify.app/)
 
 ![HEX Color app](/DAY%203%20-%20HEX%20Color%20generator/images/mobile.png)
+
+---
+
+# Day 4 - Pop up Alert
+
+[DAY 4 cod🔗]()
+
+[live preview ](https://sharif-day4-popup-alert.netlify.app/)
+
+![pop up alert ](/DAY%204%20-%20Pop%20up%20or%20alert%20message/images/mobile.gif)
