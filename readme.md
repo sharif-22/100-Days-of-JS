@@ -30,7 +30,7 @@
 
 # Day 4 - Pop up Alert
 
-[DAY 4 cod🔗](https://github.com/sharif-22/100-Days-of-JS/tree/main/DAY%204%20-%20Pop%20up%20or%20alert%20message)
+[DAY 4 code🔗](https://github.com/sharif-22/100-Days-of-JS/tree/main/DAY%204%20-%20Pop%20up%20or%20alert%20message)
 
 [live preview ](https://sharif-day4-popup-alert.netlify.app/)
 
