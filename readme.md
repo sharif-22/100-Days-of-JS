@@ -35,3 +35,13 @@
 [live preview ](https://sharif-day4-popup-alert.netlify.app/)
 
 ![pop up alert ](/DAY%204%20-%20Pop%20up%20or%20alert%20message/images/mobile.gif)
+
+---
+
+# Day 5 - Palindrom Checker
+
+[DAY 5 code🔗]()
+
+[live preview ](https://sharif-day5-palindrom-checker.netlify.app/)
+
+![Palindrom checker ](/DAY%205%20-%20Palindrom%20Checker/images/desktop%20preview.gif)
