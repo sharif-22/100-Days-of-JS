@@ -40,7 +40,7 @@
 
 # Day 5 - Palindrom Checker
 
-[DAY 5 code🔗]()
+[DAY 5 code🔗](https://github.com/sharif-22/100-Days-of-JS/tree/main/DAY%205%20-%20Palindrom%20Checker)
 
 [live preview ](https://sharif-day5-palindrom-checker.netlify.app/)
 
