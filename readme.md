@@ -50,8 +50,8 @@
 
 # Day 6 - Vowel counter
 
-[DAY 6 code🔗]()
+[DAY 6 code🔗](https://github.com/sharif-22/100-Days-of-JS/tree/main/DAY%206%20-%20Vowel%20Counter%20app)
 
-[live preview ](https://sharif-day5-palindrom-checker.netlify.app/)
+[live preview ](https://sharif-day6-vowel-counter.netlify.app/)
 
 ![vowel counter ](/DAY%206%20-%20Vowel%20Counter%20app/images/destop%20preview.gif)
