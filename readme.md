@@ -45,3 +45,13 @@
 [live preview ](https://sharif-day5-palindrom-checker.netlify.app/)
 
 ![Palindrom checker ](/DAY%205%20-%20Palindrom%20Checker/images/desktop%20preview.gif)
+
+---
+
+# Day 6 - Vowel counter
+
+[DAY 6 code🔗]()
+
+[live preview ](https://sharif-day5-palindrom-checker.netlify.app/)
+
+![vowel counter ](/DAY%206%20-%20Vowel%20Counter%20app/images/destop%20preview.gif)
