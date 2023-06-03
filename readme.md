@@ -55,3 +55,13 @@
 [live preview ](https://sharif-day6-vowel-counter.netlify.app/)
 
 ![vowel counter ](/DAY%206%20-%20Vowel%20Counter%20app/images/destop%20preview.gif)
+
+---
+
+# Day 7 - Click to Copy
+
+[DAY 7 code🔗](https://github.com/sharif-22/100-Days-of-JS/tree/main/DAY%207%20-%20Click%20to%20Copy)
+
+[live preview ](https://sharif-day7-clicktocopy.netlify.app/)
+
+![Click to Copy ](/DAY%207%20-%20Click%20to%20Copy/images/mobile.gif)
