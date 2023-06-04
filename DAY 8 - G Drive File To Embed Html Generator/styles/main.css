@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* navbar section  */
+input[type="radio"] {
+  display: none;
+}
+nav {
+  width: 900px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  background-color: #4285f4;
+  height: 30px;
+  /* color: #0f9d58; */
+  color: #db4437;
+  font-size: 1.5rem;
+  z-index: 1;
+}
+
+label {
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.tab-slider {
+  position: absolute;
+  /* background-color: #4285f4; */
+  background-color: #f4b400;
+  width: 300px;
+  /* margin-top: 0.2%; */
+  margin-block: 0.25%;
+  height: 92%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transition: all 0.8s;
+}
+#audio:checked ~ .navbar nav .tab-slider {
+  left: 33.5%;
+}
+#vedio:checked ~ .navbar nav .tab-slider {
+  left: 66.7%;
+}
+/* dynamic content changes   */
+.content {
+  display: none;
+}
+
+#link:checked ~ section .content.content-link,
+#audio:checked ~ section .content.content-audio,
+#vedio:checked ~ section .content.content-vedio {
+  display: block;
+}
+
+#link:checked ~ .navbar nav label.link,
+#audio:checked ~ .navbar nav label.audio,
+#vedio:checked ~ .navbar nav label.vedio {
+  color: #0f9d58;
+  transition: all 0.8s;
+}
+
+/* ui  */
+input {
+  width: 350px;
+  margin: 10px;
+  height: 35px;
+  font-size: 1rem;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 35px;
+  width: max-content;
+  padding: 10px;
+  cursor: pointer;
+}
+
+main {
+  height: 325px;
+  width: 900px;
+  background-color: #f4b400;
+  text-align: center;
+  border-radius: 15px;
+}
+h1 {
+  margin-block: 20px;
+}
+h2 {
+  margin-block: 10px;
+}
+
+textarea {
+  display: block;
+  margin-inline: 2.5%;
+  margin-block: 10px;
+  width: 95%;
+  height: 85px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  main {
+    width: 1000px;
+  }
+  nav {
+    width: 100%;
+  }
+  .tab-slider {
+    width: 333.33px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  main {
+    width: 700px;
+  }
+  nav {
+    width: 100%;
+  }
+  .tab-slider {
+    width: 233.33px;
+  }
+  label {
+    font-size: 1rem;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  main {
+    width: 450px;
+  }
+  nav {
+    width: 100%;
+  }
+  .tab-slider {
+    width: 150px;
+  }
+  label {
+    font-size: 0.7rem;
+  }
+}
+
+@media all and (max-width: 480px) {
+  main {
+    width: 345px;
+  }
+  .navbar,
+  nav {
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  label {
+    font-size: 10px;
+  }
+  .tab-slider {
+    width: 115px;
+    margin-top: 1px;
+  }
+  input {
+    width: 80%;
+  }
+  textarea {
+    height: 50px;
+  }
+}
