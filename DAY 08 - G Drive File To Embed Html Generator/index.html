@@ -39,7 +39,8 @@
               id="file-link"
               placeholder="Past drive file link"
             />
-            <button id="generate" type="submit">Generate Embeded code</button>
+            <button id="generate">Generate Embeded code</button>
+            <button id="clear">clear</button>
           </form>
         </div>
         <!-- link section end -->
@@ -54,7 +55,7 @@
             rows="10"
             readonly
           ></textarea>
-          <button id="copy-audio">Copy</button>
+          <button id="copy">Copy</button>
           <button id="audio-dir-download">Direct Download</button>
         </div>
         <!-- audio section end -->
@@ -64,16 +65,24 @@
           <h2>Embed Html Embed Vedio</h2>
           <textarea
             name="vedio-el"
-            id="audio-el"
+            id="vedio-el"
             cols="30"
             rows="10"
             readonly
           ></textarea>
-          <button id="copy-video">Copy</button>
+          <button id="copy">Copy</button>
           <button id="vedio-dir-download">Direct Download</button>
         </div>
         <!-- vedio section end -->
       </section>
+
+      <video width="560" height="315" controls>
+        <source
+          src="https://drive.google.com/uc?id=1sG5QJcwPeK4WKONzc4DmIwtuBWaVih6O/
+        "
+          type="vedio"
+        />
+      </video>
     </main>
     <script src="./scripts/main.js"></script>
   </body>
