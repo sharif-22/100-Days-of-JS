@@ -4,7 +4,7 @@
 
 [live preview ](https://sharif-day-1-counter-app.netlify.app/)
 
-![counter app](../100%20days%20of%20JavaScript%20challenge/DAY%2001%20-%20Counter%20app/images/mobile%20preview.png)
+![counter app](./DAY%2001%20-%20Counter%20app/images/mobile%20preview.png)
 
 ---
 
@@ -14,7 +14,7 @@
 
 [live preview ](https://sharif-day2-random-num-gererator.netlify.app/)
 
-![Random Generator app](../100%20days%20of%20JavaScript%20challenge/DAY%2002%20-%20Random%20num%20Generator/images/mobile.png)
+![Random Generator app](./DAY%2002%20-%20Random%20num%20Generator/images/mobile.png)
 
 ---
 
@@ -24,7 +24,7 @@
 
 [live preview ](https://sharif-day3-hexcolorapp.netlify.app/)
 
-## ![HEX Color app](../100%20days%20of%20JavaScript%20challenge/DAY%2003%20-%20HEX%20Color%20generator/images/mobile.png)
+## ![HEX Color app](./DAY%2003%20-%20HEX%20Color%20generator/images/mobile.png)
 
 # Day 4 - Pop up Alert
 
@@ -32,7 +32,7 @@
 
 [live preview ](https://sharif-day4-popup-alert.netlify.app/)
 
-![pop up alert ](../100%20days%20of%20JavaScript%20challenge/DAY%2004%20-%20Pop%20up%20or%20alert%20message/images/mobile.gif)
+![pop up alert ](./DAY%2004%20-%20Pop%20up%20or%20alert%20message/images/mobile.gif)
 
 ---
 
@@ -42,7 +42,7 @@
 
 [live preview ](https://sharif-day5-palindrom-checker.netlify.app/)
 
-![Palindrom checker ](../100%20days%20of%20JavaScript%20challenge/DAY%2005%20-%20Palindrom%20Checker/images/desktop%20preview.gif)
+![Palindrom checker ](./DAY%2005%20-%20Palindrom%20Checker/images/desktop%20preview.gif)
 
 ---
 
@@ -52,7 +52,7 @@
 
 [live preview ](https://sharif-day6-vowel-counter.netlify.app/)
 
-![vowel counter ](../100%20days%20of%20JavaScript%20challenge/DAY%2006%20-%20Vowel%20Counter%20app/images/destop%20preview.gif)
+![vowel counter ](./DAY%2006%20-%20Vowel%20Counter%20app/images/destop%20preview.gif)
 
 ---
 
@@ -62,7 +62,7 @@
 
 [live preview ](https://sharif-day7-clicktocopy.netlify.app/)
 
-![Click to Copy ](../100%20days%20of%20JavaScript%20challenge/DAY%2007%20-%20Click%20to%20Copy/images/mobile.gif)
+![Click to Copy ](./DAY%2007%20-%20Click%20to%20Copy/images/mobile.gif)
 
 # Day 8 -
 
@@ -72,7 +72,7 @@
 
 [live preview]()
 
-![](../100%20days%20of%20JavaScript%20challenge/DAY%2009%20-%20Input%20Remaing%20Character%20counter/images/destop%20preview.gif)
+![](./DAY%2009%20-%20Input%20Remaing%20Character%20counter/images/destop%20preview.gif)
 
 # Day 10 - Internet Connection Detector
 
@@ -80,4 +80,4 @@
 
 [live preview]()
 
-![](../100%20days%20of%20JavaScript%20challenge/DAY%2010%20-%20Internet%20Connection%20Detector/images/mobile.gif)
+![](./DAY%2010%20-%20Internet%20Connection%20Detector/images/mobile.gif)
