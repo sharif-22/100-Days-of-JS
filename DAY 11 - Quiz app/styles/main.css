@@ -18,7 +18,7 @@ body {
 }
 
 main {
-  width: 350px;
+  width: 550px;
   height: 350px;
   background-color: aqua;
   border-radius: 8px;
@@ -32,12 +32,12 @@ main {
 #progress {
   margin-block: 16px;
   font-size: 1.2rem;
-  border-block: 1px solid black;
+  /* border-block: 1px solid black; */
   padding-block: 4px;
 }
 
 #question {
-  border-block: 1px solid black;
+  /* border-block: 1px solid black; */
   padding-block: 4px;
   margin-block: 16px;
   font-size: 1.2rem;
@@ -55,11 +55,23 @@ main {
   flex: 20% 80%;
   align-items: center;
   gap: 4px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
 }
+
+.btn:hover {
+  box-shadow: rgba(52, 101, 179, 0.2) 0px 7px 29px 0px;
+  border: 1.5px solid cornflowerblue;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: cornflowerblue;
+}
+
 span {
   width: inherit;
   height: 1.3rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .option {
   width: 30px;

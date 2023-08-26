@@ -1,4 +1,4 @@
-export const quizQuestions = [
+const quizQuestions = [
   {
     id: 0,
     question:
@@ -841,3 +841,5 @@ export const quizQuestions = [
     correctAnswer: 0,
   },
 ];
+
+export default quizQuestions;

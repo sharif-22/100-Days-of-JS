@@ -2,48 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz app</title>
-    <link rel="stylesheet" href="./styles/main.css" />
-
-    <!-- our project just needs Font Awesome Solid + Brands -->
-    <link
-      href="/your-path-to-fontawesome/css/fontawesome.css"
-      rel="stylesheet"
-    />
-    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet" />
-    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet" />
+    <title>Quiz App Day 11</title>
+    <style>
+      .result-container {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <main>
-      <i class="fa-brands fa-github-square"></i>
-      <i class="fa-solid fa-user"></i>
-      <div class="quiz-box">
-        <h1>JavaScript Quiz App</h1>
-        <div class="quiz-header">
-          <p id="progress">Question x of y</p>
-          <p id="count-down">
-            <!-- <i class="fa-light fa-hourglass-clock"></i> -->
-          </p>
+      <div class="quiz-Container" id="quiz-container">
+        <!-- quiz title  -->
+        <h1 class="quiz-title">Java script Quiz</h1>
+        <!-- quiz title end  -->
+
+        <!-- quiz console -->
+        <div class="quiz-console">
+          <span class="question-count"></span>
+          <span class="quiz-timer">10 m </span>
         </div>
-        <p id="question">questions will started soon</p>
-        <div class="options">
-          <button class="btn" id="btn0">
-            <span class="option">A.</span> <span id="choice0"></span>
-          </button>
-          <button class="btn" id="btn1">
-            <span class="option">B.</span> <span id="choice1"></span>
-          </button>
-          <button class="btn" id="btn2">
-            <span class="option">C.</span> <span id="choice2"></span>
-          </button>
-          <button class="btn" id="btn3">
-            <span class="option">D.</span> <span id="choice3"></span>
-          </button>
+        <!-- quiz console end  -->
+
+        <!-- quiz questions and options  -->
+        <div class="quiz-area">
+          <h2 class="quiz-question">quetion ?</h2>
+          <div class="option-container">
+            <button class="option option1">option 1</button>
+            <button class="option option2">option 2</button>
+            <button class="option option3">option 3</button>
+            <button class="option option4">option 4</button>
+          </div>
         </div>
+        <!-- quiz questions and options end  -->
       </div>
+
+      <!-- Result state -->
+      <div class="result-container" id="result-container">
+        <h2>Quiz Completed</h2>
+        <p id="result-score"></p>
+        <button id="reset-btn" class="reset-btn">Reset Quiz</button>
+      </div>
+      <!-- Result state End  -->
     </main>
+
     <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>
