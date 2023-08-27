@@ -4,29 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App Day 11</title>
-    <style>
-      .result-container {
-        display: none;
-      }
-    </style>
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <main>
       <div class="quiz-Container" id="quiz-container">
         <!-- quiz title  -->
-        <h1 class="quiz-title">Java script Quiz</h1>
+        <p class="quiz-title">Java script Quiz</p>
         <!-- quiz title end  -->
 
         <!-- quiz console -->
         <div class="quiz-console">
           <span class="question-count"></span>
-          <span class="quiz-timer">10 m </span>
+          <!-- <span class="quiz-timer">10 m </span> -->
         </div>
         <!-- quiz console end  -->
 
         <!-- quiz questions and options  -->
         <div class="quiz-area">
-          <h2 class="quiz-question">quetion ?</h2>
+          <p class="quiz-question">quetion ?</p>
           <div class="option-container">
             <button class="option option1">option 1</button>
             <button class="option option2">option 2</button>
@@ -38,10 +34,12 @@
       </div>
 
       <!-- Result state -->
-      <div class="result-container" id="result-container">
-        <h2>Quiz Completed</h2>
-        <p id="result-score"></p>
-        <button id="reset-btn" class="reset-btn">Reset Quiz</button>
+      <div class="result-container" id="result-container" style="display: none">
+        <div class="result">
+          <p class="quiz-title">Quiz Completed</p>
+          <p id="result-score" class="result-score"></p>
+          <button id="reset-btn" class="reset-btn">Reset Quiz</button>
+        </div>
       </div>
       <!-- Result state End  -->
     </main>
